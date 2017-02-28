@@ -1,0 +1,30 @@
+Author: Varun Sharma
+
+Pre-requisites: 
+    - Java 7 or higher.
+    - Jar file.
+    - Input files.
+    - Command prompt/terminal.
+
+Files: DictionaryMain.java
+       DictionaryUtil.java
+       DictionaryEntry.java
+          
+TestFiles: input.txt - Given test scenario
+           test1.txt - Sunny day test scenario
+           test2.txt - Commutative test scenario
+           test3.txt - Transitive test scenario
+           test4.txt - Rainy day test scenario
+           test5.txt - Bulk test scenario
+           
+How to run:
+    - Open command prompt/terminal and move to the folder where you have extracted the files.
+    - Execute the following command
+        java -jar dictionary.jar <input_file>
+        
+Interface:
+    DictionaryMain - Handles all the inputs and transfer the control to the DictionaryUtil class according to the input.
+        |
+        |__ DictionaryUtil - Utility class to handle all the different input operations.
+                |
+                |__ DictionaryEntry - A data structure to hold the word definition and a set of synonyms for that word.

@@ -1,0 +1,15 @@
+addWord:word1:definition1
+addWord:word2:definition2
+addWord:word3:definition3
+addWord:word4:definition4
+addWord:word5:definition5
+addWord:word6:definition6
+addSynonym:word4:word2
+addSynonym:word1:word3
+addSynonym:word4:word3
+lookupSynonyms:word1
+lookupSynonyms:word2
+lookupSynonyms:word3
+lookupSynonyms:word4
+lookupSynonyms:word5
+lookupSynonyms:word6

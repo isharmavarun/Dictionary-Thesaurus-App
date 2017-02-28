@@ -1,0 +1,10 @@
+addWord:word1:definition1
+addWord:word2:definition2
+addWord:word3:definition3
+addWord:word4:definition4
+addWord:word5:definition5
+lookupWord:word1
+lookupWord:word2
+lookupWord:word3
+lookupWord:word4
+lookupWord:word5
